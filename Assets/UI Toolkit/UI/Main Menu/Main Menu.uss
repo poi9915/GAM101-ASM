@@ -1,0 +1,57 @@
+#lblName {
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    -unity-font: url("project://database/Assets/Font/ARCADECLASSIC.TTF?fileID=12800000&guid=d2840747d8b4f904b93ecbd1dd7a0779&type=3#ARCADECLASSIC");
+}
+#Main{
+    background-color: rgba(0,0,0,0.5);
+}
+
+#btnStart {
+    background-color: rgb(30, 139, 30);
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    margin: 5px;
+    border-radius: 0;
+    font-size: 24px;
+    border-color: white;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-left-color: rgb(14, 1, 1);
+    border-right-color: rgb(14, 1, 1);
+    border-top-color: rgb(14, 1, 1);
+    border-bottom-color: rgb(14, 1, 1);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    visibility: visible;
+    position: relative;
+    width: 50%;
+    height: 50px;
+    left: auto;
+    right: auto;
+}
+
+#btnExit {
+    background-color: rgb(178, 34, 34);
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    margin: 5px;
+    border-radius: 0;
+
+    font-size: 24px;
+
+    width: 50%;
+    height: auto;
+    -unity-font: url('project://database/Assets/Thaleah_PixelFont/Materials/ThaleahFat_TTF.ttf?fileID=12800000&guid=585188cdc4600544eb408bee749e4b3a&type=3#ThaleahFat_TTF');
+}
+
+:root {
+    background-color: rgb(26, 26, 26);
+    opacity: 0.5;
+}
